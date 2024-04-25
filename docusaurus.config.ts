@@ -3,19 +3,19 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'OML Vision Docs',
-  tagline: 'A Visual Studio Code extension providing user interface viewpoints for Ontological Modeling Language (OML) models',
+  title: 'Developer Experience Tips',
+  tagline: "A Hitchhiker's Guide to Pleasant and Effective DX",
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://opencaesar.github.io',
+  url: 'https://pogi7.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/dx-tips/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'opencaesar', // Usually your GitHub org/user name.
+  organizationName: 'pogi7', // Usually your GitHub org/user name.
   projectName: 'dx-tips', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -40,7 +40,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/opencaesar/dx-tips/tree/master/',
+            'https://github.com/pogi7/dx-tips/tree/master/',
         },
         blog: {
           // https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog
@@ -50,7 +50,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/opencaesar/dx-tips/tree/master/',
+            'https://github.com/pogi7/dx-tips/tree/master/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -62,8 +62,8 @@ const config: Config = {
   themeConfig: {
     navbar: {
       logo: {
-        alt: 'OML Vision Logo',
-        src: 'img/vision480x96.png',
+        alt: 'DX Tips',
+        src: './img/dx-icon.png',
       },
       items: [
         {href: '/', label: 'Home', position: 'left'},
@@ -71,16 +71,15 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs',
+          label: 'Tips',
         },
         {to: '/changelog', label: 'Changelog', position: 'left'},
         {
           type: 'docsVersionDropdown',
           position: 'right'
         },
-        {href: 'https://www.opencaesar.io/', label: 'openCAESAR', position: 'right'},
         {
-          href: 'https://github.com/opencaesar/dx-tips',
+          href: 'https://github.com/pogi7/dx-tips',
           label: 'GitHub',
           position: 'right',
         },
@@ -107,29 +106,8 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Repo',
           items: [
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/hashtag/openCAESAR?src=hashtag_click',
-            },
-            {
-              label: 'LinkedIn',
-              href: 'https://www.linkedin.com/search/results/all/?keywords=%23opencaesar',
-            },
-            {
-              label: 'YouTube',
-              href: 'https://www.youtube.com/@melaasar/featured',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'openCAESAR',
-              href: 'https://www.opencaesar.io/',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/opencaesar/dx-tips',
@@ -137,7 +115,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} California Institute of Technology. Government sponsorship acknowledged. Built with Docusaurus.`,
+      copyright: `DISCLAIMER: All information contained are the author's opinions.  Developer experience is extremely subjective so take all information with a grain of salt.  Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,

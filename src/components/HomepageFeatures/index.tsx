@@ -10,40 +10,41 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use and Learn',
-    Svg: require('@site/static/img/undraw_maker_launch.svg').default,
+    title: 'Standarize Development Processes',
+    Svg: require('@site/static/img/undraw_dev_focus_re_6iwt.svg').default,
     description: (
       <>
-        OML Vision was designed with ease of use in mind for all members of the project team and for users 
-        who are familiar with document based tools to transition
-        to Model Based Systems Engineering (MBSE).
+        Having a pleasant and effective DX leads to development processes being standardized.  
+        Adopting this environment leads to a <a href="https://www.devzero.io/blog/why-software-development-environments-are-important-and-how-to-manage-them-effectively">
+        reduction of errors and improved reliability for the project.</a>
       </>
     ),
   },
   {
-    title: 'Sponsored by openCAESAR',
-    Svg: require('@site/static/img/undraw_teaching.svg').default,
+    title: 'Applicable To All Dev Teams',
+    Svg: require('@site/static/img/undraw_pair_programming_re_or4x.svg').default,
     description: (
       <>
-        OML Vision falls under the openCAESAR product line.  openCAESAR is a ontological modeling and 
-        analysis platform that implements the Ontological Modeling Language (OML), and supports 
-        an agile DevOps approach to system modeling and analysis.
+        Having a pleasant and effective DX can be applied to all development teams.  
+        Embracing this mindset will allow your teams to be <a href="https://www.daytona.io/dotfiles/embracing-standardized-development-environments">
+        more productive, collaborative, and consistent.</a>
       </>
     ),
   },
   {
-    title: 'Powered by React TSX and VSCode',
-    Svg: require('@site/static/img/undraw_react.svg').default,
+    title: 'Lower Rates Of Burnout',
+    Svg: require('@site/static/img/undraw_enter_uhqk.svg').default,
     description: (
       <>
-        OML Vision is a Visual Studio Code extension that is built using React and Typescript. This allows type safety,
-        improved collaboration, and enhanced code maintainability throughout the lifecycle of the project.
+        Having a pleasant and effective DX will lead to lower rates of burnout.  
+        Adopting these practices can prevent or mitigate <a href="https://www.software.com/devops-guides/developer-burnout">
+        lower code quality, poor project outcomes, and high turnover.</a>
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
