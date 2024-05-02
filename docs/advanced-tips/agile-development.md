@@ -4,116 +4,52 @@ sidebar_position: 1
 
 # Agile Development
 
-## Automated Building and Testing
+Adopting an agile way of thinking within a dev team is an important way to improve the pleasantness and effectiveness of a team's DX.
 
-Automated building and testing software is important to pleasant and effective DX.
-
-## CICD Pipelines
-
-[Version control](https://www.atlassian.com/git/tutorials/what-is-version-control) is a way to keep track and manage changes to software code.  
-
-Version control can allow developer teams to keep track, mitigate, and resolve errors that may arise from code degradation or human error.  
-
-### Git
-
-:::tip What is Git?
-
-[Atlassian](https://www.atlassian.com/git/tutorials/what-is-git) does a good job explaining what Git is and the benefits of adopting the technology within a development team.
-
-:::
-
-According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#version-control-version-control-system), Git is the de facto version control software that personal and professional developers use.
-
-Git is used for managing code locally on a computer.  This computer can be a personal computer, a bare metal server, or a cloud instance.
-
-Git stores code in repos.  These local repos can be stored on remote hosting services.
-
-### Github
-
-:::tip What is Github?
-
-[Github](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) does a good job explaining how Git and Github interact with each other and the benefits of using Github.
-
-:::
-
-According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-version-control-version-control-platforms), Github is the most used version control platform that personal and professional developers use.
-
-Github is used to store Git repos that can be accessed by developers with the correct authorization.  
-
-For a developer, Github is used for a development team to see new changes in a codebase and keep track of and manage those changes.
-
-An example of a Github repo is shown [here](https://github.com/opencaesar/oml-vision)
+Agile development is a way of thinking.  It's a culture that a team should adopt.  Agile is usually used in processes that can improved iteratively and where order of operations isn't extremely important.  Agile is usually not used to its fullest in industries that need to be risk adverse such as healthcare or space exploration.
 
 ## DevSecOps
 
-Documenting code is very important because it allows you and the rest of the development team to understand how your code works and is supposed to behave.
+[DevSecOps](https://www.redhat.com/en/topics/devops/what-is-devsecops) or Development, Security, and Operations is a way of implementing agile by having the dev team be responsible for the development, security, and operations of the app instead of passing those responsibilities off to other dev teams.
 
-Documentation helps dev teams onboard new developers much faster and prevent information from being lost due to turnover or forgetting. 
+### CICD Pipelines
 
-### Comments
+[CICD](https://www.redhat.com/en/topics/devops/what-is-ci-cd) or Continuous Integration and Continuous Deployment is way to achieve DevSecOps by having the dev team continuously integrate new changes to the app and continuously deploying these changes to the app.
 
-Code comments are very helpful for developers because you can put the code documentation right next to the code.  
+This is commonly used to automatically build and test an app to ensure that the app functions as intended and verify that there is high code quality.
 
-It is highly recommended to follow the documentation standard for your language that your dev team is using.
+An example of a CICD pipeline using Github Actions can be found [here](https://github.com/pogi7/dx-tips/actions)
 
-The list includes some of the most widely used programming languages from [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-programming-scripting-and-markup-languages):
-- [Python](https://peps.python.org/pep-0257/)
-- [Java](https://www.baeldung.com/javadoc#javadoc-comments)
-- [Typescript](https://tsdoc.org/)
+:::tip This app is deployed using a CICD pipeline
 
-An example of a Typescript comment that matches a Typescript standard is shown [here](https://github.com/opencaesar/oml-vision/blob/0db2cc46778f1441474c0d4aebc071df453cf52d/controller/src/utilities/loaders/loadCommandFiles.ts#L6-L15)
+:::
 
-### READMEs
 
-READMEs are nice to explain higher level functionality of a program, function, class, or piece of software within an app or a piece of software that interacts with your dev team's app.
+## Scrum
+[Scrum](https://www.atlassian.com/agile/scrum) is one way that Agile can be achieved.
 
-READMEs can be included at any level of a Git repo, but generally recommended at the root or top level of a repo so that all developers will know where the README is.  
+Pros: 
+- Fixed increment of when to do work (i.e 2 weeks, 1 month, etc.)
+- Incremental improvements to the app
 
-READMEs can be written in any programming language, but they are generally written in [plain text](https://www.adobe.com/uk/acrobat/resources/document-files/text-files/txt.html) (.txt) or [Markdown](https://www.markdownguide.org/) (.md) files.
+Cons:
+- Meeting heavy
+- Required roles such as scrum master, product owner, etc.
 
-An example of a README.md in a Github repo is shown [here](https://github.com/opencaesar/oml-vision/blob/0db2cc46778f1441474c0d4aebc071df453cf52d/README.md)
 
-### Wikis
+## Kanban
 
-Wikis are a good alternative to READMEs when you don't want to store high level documentation about your app inside a Git repo.
+[Kanban](https://www.atlassian.com/agile/kanban) is another way that Agile can be achieved.
 
-According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-asynchronous-tools), a very common wiki that dev teams use is [Confluence](https://www.atlassian.com/software/confluence)  
+Pros: 
+- Meeting Light
+- Continuous improvements to the app
 
-An example of a Confluence page detailing the architecture of an app is shown [here](https://openmbee.atlassian.net/wiki/spaces/OPENMBEE/pages/320765953/Flexo-MMS+Architecture)
+Cons:
+- No fixed increment of when to do work (i.e 2 weeks, 1 month, etc.)
+- Work continuously comes in with little room for planning this work when compared to scrum
 
 ## Ticket System
+Both Scrum and Kanban use a ticket system to keep track of work.  These tickets help developers organize the requirements for their work and determining when their work is finished for a particular feature request or bug report.
 
-Documenting code is very important because it allows you and the rest of the development team to understand how your code works and is supposed to behave.
-
-Documentation helps dev teams onboard new developers much faster and prevent information from being lost due to turnover or forgetting. 
-
-### Comments
-
-Code comments are very helpful for developers because you can put the code documentation right next to the code.  
-
-It is highly recommended to follow the documentation standard for your language that your dev team is using.
-
-The list includes some of the most widely used programming languages from [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-programming-scripting-and-markup-languages):
-- [Python](https://peps.python.org/pep-0257/)
-- [Java](https://www.baeldung.com/javadoc#javadoc-comments)
-- [Typescript](https://tsdoc.org/)
-
-An example of a Typescript comment that matches a Typescript standard is shown [here](https://github.com/opencaesar/oml-vision/blob/0db2cc46778f1441474c0d4aebc071df453cf52d/controller/src/utilities/loaders/loadCommandFiles.ts#L6-L15)
-
-### READMEs
-
-READMEs are nice to explain higher level functionality of a program, function, class, or piece of software within an app or a piece of software that interacts with your dev team's app.
-
-READMEs can be included at any level of a Git repo, but generally recommended at the root or top level of a repo so that all developers will know where the README is.  
-
-READMEs can be written in any programming language, but they are generally written in [plain text](https://www.adobe.com/uk/acrobat/resources/document-files/text-files/txt.html) (.txt) or [Markdown](https://www.markdownguide.org/) (.md) files.
-
-An example of a README.md in a Github repo is shown [here](https://github.com/opencaesar/oml-vision/blob/0db2cc46778f1441474c0d4aebc071df453cf52d/README.md)
-
-### Wikis
-
-Wikis are a good alternative to READMEs when you don't want to store high level documentation about your app inside a Git repo.
-
-According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-asynchronous-tools), a very common wiki that dev teams use is [Confluence](https://www.atlassian.com/software/confluence)  
-
-An example of a Confluence page detailing the architecture of an app is shown [here](https://openmbee.atlassian.net/wiki/spaces/OPENMBEE/pages/320765953/Flexo-MMS+Architecture)
+- According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-asynchronous-tools), the most widely used ticket system by personal and professional developers is [Jira](https://www.atlassian.com/software/jira)
