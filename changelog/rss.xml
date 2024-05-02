@@ -4,7 +4,7 @@
         <title>Developer Experience Tips Blog</title>
         <link>https://pogi7.github.io/dx-tips/changelog</link>
         <description>Developer Experience Tips Blog</description>
-        <lastBuildDate>Thu, 02 May 2024 06:43:16 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 May 2024 06:59:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[test-changelog]]></title>
             <link>https://pogi7.github.io/dx-tips/changelog/initial-release</link>
             <guid>https://pogi7.github.io/dx-tips/changelog/initial-release</guid>
-            <pubDate>Thu, 02 May 2024 06:43:16 GMT</pubDate>
+            <pubDate>Thu, 02 May 2024 06:59:35 GMT</pubDate>
             <description><![CDATA[Test]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="test">Test<a href="https://pogi7.github.io/dx-tips/changelog/initial-release#test" class="hash-link" aria-label="Direct link to Test" title="Direct link to Test">​</a></h2>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="added">Added<a href="https://pogi7.github.io/dx-tips/changelog/initial-release#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added">​</a></h3>
