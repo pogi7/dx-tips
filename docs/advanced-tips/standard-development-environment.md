@@ -4,77 +4,62 @@ sidebar_position: 4
 
 # Standard Development Environments
 
-Let's discover the basics of pleasant and effective **developer experience in less than 5 minutes**.
+Package managers are a good way to standardize the way that software is developed in a dev team leading to an improvement in the pleasantness and effectiveness of DX.
 
-## Version Control
+A standard development environment is where all developers in the dev team have the same environment in which they do development.  This is usually at the OS, programming language, and app level.
 
-[Version control](https://www.atlassian.com/git/tutorials/what-is-version-control) is a way to keep track and manage changes to software code.  
+## OS Level
 
-Version control can allow developer teams to keep track, mitigate, and resolve errors that may arise from code degradation or human error.  
+For most developers standardizing the development environment at the OS (operating system) level is the most important improvement to DX.  
 
-### Git
+A common complaint people will say is `It works on my machine!` when this isn't done right.
 
-:::tip What is Git?
+### Force Everyone to Have the Same Local OS
 
-[Atlassian](https://www.atlassian.com/git/tutorials/what-is-git) does a good job explaining what Git is and the benefits of adopting the technology within a development team.
+Pros: 
+- All developers are on the same local OS.
 
-:::
+Cons:
+- People may be comfortable with Windows, macOS, or Linux to do other things that doesn't involve development.
+- Local OS may get out of date
 
-According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#version-control-version-control-system), Git is the de facto version control software that personal and professional developers use.
+### Developers working On a Common Server
 
-Git is used for managing code locally on a computer.  This computer can be a personal computer, a bare metal server, or a cloud instance.
+Pros: 
+- All developers are on the same common OS.
+- All software can be installed on the server.
+- Can be hosted in the cloud or on-premises (on-prem)
 
-Git stores code in repos.  These local repos can be stored on remote hosting services.
+Cons:
+- Expensive 
+- Performance will suffer as more devs come into the project and the app becomes more resource intensive
 
-### Github
+### Docker
 
-:::tip What is Github?
+Pros: 
+- Does not alter the host OS so when docker is stopped a developer can go back to using Windows, macOS, or Linux.
+- According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-other-tools), widely used by personal and professional developers.
+- Docker can be run on any machine (cloud, local, server, etc.) that has the Docker engine installed
+- New OS is run in the docker container which can be used to standardize development environments for the dev team
+- Can be easily integrated into an IDE.  For example VSCode has [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) which use Docker
 
-[Github](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) does a good job explaining how Git and Github interact with each other and the benefits of using Github.
+Cons:
+- Moderately to High Learning Curve 
+- Can get complicated
 
-:::
+## Programming Language Level
 
-According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-version-control-version-control-platforms), Github is the most used version control platform that personal and professional developers use.
+Most programming languages have package managers that specify the dependencies or libraries that a developer must have before running the app in a standardized development environment.  
 
-Github is used to store Git repos that can be accessed by developers with the correct authorization.  
+The package managers usually store that info in a file.
 
-For a developer, Github is used for a development team to see new changes in a codebase and keep track of and manage those changes.
+Here are some for the most popular programming languages:
+- [requirements.txt](https://learnpython.com/blog/python-requirements-file/)
+- [package.json](https://docs.npmjs.com/cli/v10/configuring-npm/package-json)
+- [pom.xml](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html)
 
-An example of a Github repo is shown [here](https://github.com/opencaesar/oml-vision)
+## App Level
 
-## Documenting Code
+Similar to the programming language file, an app may store its dependencies needed to run the app in a standardized development environment in a file.
 
-Documenting code is very important because it allows you and the rest of the development team to understand how your code works and is supposed to behave.
-
-Documentation helps dev teams onboard new developers much faster and prevent information from being lost due to turnover or forgetting. 
-
-### Comments
-
-Code comments are very helpful for developers because you can put the code documentation right next to the code.  
-
-It is highly recommended to follow the documentation standard for your language that your dev team is using.
-
-The list includes some of the most widely used programming languages from [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-programming-scripting-and-markup-languages):
-- [Python](https://peps.python.org/pep-0257/)
-- [Java](https://www.baeldung.com/javadoc#javadoc-comments)
-- [Typescript](https://tsdoc.org/)
-
-An example of a Typescript comment that matches a Typescript standard is shown [here](https://github.com/opencaesar/oml-vision/blob/0db2cc46778f1441474c0d4aebc071df453cf52d/controller/src/utilities/loaders/loadCommandFiles.ts#L6-L15)
-
-### READMEs
-
-READMEs are nice to explain higher level functionality of a program, function, class, or piece of software within an app or a piece of software that interacts with your dev team's app.
-
-READMEs can be included at any level of a Git repo, but generally recommended at the root or top level of a repo so that all developers will know where the README is.  
-
-READMEs can be written in any programming language, but they are generally written in [plain text](https://www.adobe.com/uk/acrobat/resources/document-files/text-files/txt.html) (.txt) or [Markdown](https://www.markdownguide.org/) (.md) files.
-
-An example of a README.md in a Github repo is shown [here](https://github.com/opencaesar/oml-vision/blob/0db2cc46778f1441474c0d4aebc071df453cf52d/README.md)
-
-### Wikis
-
-Wikis are a good alternative to READMEs when you don't want to store high level documentation about your app inside a Git repo.
-
-According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-asynchronous-tools), a very common wiki that dev teams use is [Confluence](https://www.atlassian.com/software/confluence)  
-
-An example of a Confluence page detailing the architecture of an app is shown [here](https://openmbee.atlassian.net/wiki/spaces/OPENMBEE/pages/320765953/Flexo-MMS+Architecture)
+An example of an app having a package manager that stores its dependencies in a `values.yml` file is Kubernetes's [Helm](https://helm.sh/docs/chart_template_guide/values_files/#helm)
