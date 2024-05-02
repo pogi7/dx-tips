@@ -97,7 +97,7 @@ const config: Config = {
             },
             {
               label: 'API Documentation',
-              to: '/docs/category/api-documentation',
+              to: '/docs/category/advanced-tips',
             },
             {
               label: 'Change Log',
