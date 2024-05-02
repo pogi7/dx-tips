@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Developer Experience Tips Blog</title>
+        <link>https://pogi7.github.io/dx-tips/changelog</link>
+        <description>Developer Experience Tips Blog</description>
+        <lastBuildDate>Thu, 02 May 2024 04:44:15 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[test-changelog]]></title>
+            <link>https://pogi7.github.io/dx-tips/changelog/initial-release</link>
+            <guid>https://pogi7.github.io/dx-tips/changelog/initial-release</guid>
+            <pubDate>Thu, 02 May 2024 04:44:15 GMT</pubDate>
+            <description><![CDATA[Test]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="test">Test<a href="https://pogi7.github.io/dx-tips/changelog/initial-release#test" class="hash-link" aria-label="Direct link to Test" title="Direct link to Test">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="added">Added<a href="https://pogi7.github.io/dx-tips/changelog/initial-release#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added">​</a></h3>
+<ul>
+<li>Initial release</li>
+</ul>]]></content:encoded>
+            <category>oml</category>
+            <category>vscode</category>
+        </item>
+    </channel>
+</rss>
