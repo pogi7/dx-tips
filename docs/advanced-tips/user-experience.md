@@ -23,7 +23,7 @@ Professional Project:
     - If so then see your dev team has the budget to hire one
     - If not then see if you can pitch the idea of starting a design team at your work
 
-## Listen to your Designer
+## Listen to Your Designer
 
 It's always a good idea to listen to your designer.  A lot of research goes into making a good user experience.  Information is usually conveyed in a Figma diagram.  
 
