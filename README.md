@@ -4,7 +4,7 @@
 Link to [Source Code](https://github.com/pogi7/dx-tips)
 
 ## Deployment on Github Pages
-Link to [Documentation Deployed on Github Pages](http://www.pogi7.github.io/dx-tips/)
+Link to [Documentation Deployed on Github Pages](https://pogi7.github.io/dx-tips/)
 
 # Website
 
