@@ -4,77 +4,55 @@ sidebar_position: 1
 
 # Artifical Intelligence
 
-Let's discover the basics of pleasant and effective **developer experience in less than 5 minutes**.
+Artifical intelligence is a great tool that can vastly improve the pleasantness and effectiveness of a developer's experience.
 
-## Version Control
+## LLM 
 
-[Version control](https://www.atlassian.com/git/tutorials/what-is-version-control) is a way to keep track and manage changes to software code.  
+According to [Stack Overflow's 2023 insights](https://survey.stackoverflow.co/2023/#section-sentiment-and-usage-ai-tools-in-the-development-process), use of AI specifically LLMs are on the rise for personal and professional developers.
 
-Version control can allow developer teams to keep track, mitigate, and resolve errors that may arise from code degradation or human error.  
+LLM or Large Language Models are great tools since they have been trained on large data sets.  
 
-### Git
+This means that LLMs can usually generate an answer if you give it a sufficient prompt.  
 
-:::tip What is Git?
+LLM are very popular since they can give an answer very quickly.  Sometimes LLM will hallucinate which by giving an incorrect answer while claiming it's correct.  It's a good idea to always verify the output a LLM gives.
 
-[Atlassian](https://www.atlassian.com/git/tutorials/what-is-git) does a good job explaining what Git is and the benefits of adopting the technology within a development team.
+:::tip Prompt Engineering
 
-:::
-
-According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#version-control-version-control-system), Git is the de facto version control software that personal and professional developers use.
-
-Git is used for managing code locally on a computer.  This computer can be a personal computer, a bare metal server, or a cloud instance.
-
-Git stores code in repos.  These local repos can be stored on remote hosting services.
-
-### Github
-
-:::tip What is Github?
-
-[Github](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) does a good job explaining how Git and Github interact with each other and the benefits of using Github.
+[AWS](https://aws.amazon.com/what-is/prompt-engineering/) does a good job explaining what prompt engineering is and the benefits of good prompt engineering when trying to get answers from a LLM.
 
 :::
 
-According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-version-control-version-control-platforms), Github is the most used version control platform that personal and professional developers use.
+### API
 
-Github is used to store Git repos that can be accessed by developers with the correct authorization.  
+LLMs can be accessed through their API.  This allows developer flexibility in how the LLM can generate information for an app.
 
-For a developer, Github is used for a development team to see new changes in a codebase and keep track of and manage those changes.
+OpenAI's example of their LLM API is found [here](https://platform.openai.com/)
 
-An example of a Github repo is shown [here](https://github.com/opencaesar/oml-vision)
+### Web Interface
 
-## Documenting Code
+Most people are most familiar with the web interface on interacting with LLMs.  [ChatGPT](https://chat.openai.com) is the most popular, but their are others such as Anthropic's [ClaudeAI](https://claude.ai).
 
-Documenting code is very important because it allows you and the rest of the development team to understand how your code works and is supposed to behave.
+Personal and professional developers will use the web interface to input a prompt and ask the AI to either generate or interpret code and documentation.
 
-Documentation helps dev teams onboard new developers much faster and prevent information from being lost due to turnover or forgetting. 
+### IDE Extensions
 
-### Comments
+IDE (Integrated Development Environment) Extensions help developers incorporate a LLM into the platform they use to write code and documentation.
 
-Code comments are very helpful for developers because you can put the code documentation right next to the code.  
+Some examples of AI LLM IDE Extensions include
+- [Github Copilot](https://github.com/features/copilot)
+- [Tabnine](https://www.tabnine.com)
 
-It is highly recommended to follow the documentation standard for your language that your dev team is using.
+## Rules Based AI
 
-The list includes some of the most widely used programming languages from [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-programming-scripting-and-markup-languages):
-- [Python](https://peps.python.org/pep-0257/)
-- [Java](https://www.baeldung.com/javadoc#javadoc-comments)
-- [Typescript](https://tsdoc.org/)
+Rules Based AI is slightly less known than LLM that are trained using machine learning.
 
-An example of a Typescript comment that matches a Typescript standard is shown [here](https://github.com/opencaesar/oml-vision/blob/0db2cc46778f1441474c0d4aebc071df453cf52d/controller/src/utilities/loaders/loadCommandFiles.ts#L6-L15)
+Rules based AI generates responses based on a set of known and predefined rules.  
 
-### READMEs
+This means that rules based AI will always give a correct answer based on its predefined rules, but it is significantly slower than a LLM.
 
-READMEs are nice to explain higher level functionality of a program, function, class, or piece of software within an app or a piece of software that interacts with your dev team's app.
+Industries that can't afford hallucinations like healthcare or space exploration are more likely to use rules based AI on production quality software.
 
-READMEs can be included at any level of a Git repo, but generally recommended at the root or top level of a repo so that all developers will know where the README is.  
 
-READMEs can be written in any programming language, but they are generally written in [plain text](https://www.adobe.com/uk/acrobat/resources/document-files/text-files/txt.html) (.txt) or [Markdown](https://www.markdownguide.org/) (.md) files.
+### Database
 
-An example of a README.md in a Github repo is shown [here](https://github.com/opencaesar/oml-vision/blob/0db2cc46778f1441474c0d4aebc071df453cf52d/README.md)
-
-### Wikis
-
-Wikis are a good alternative to READMEs when you don't want to store high level documentation about your app inside a Git repo.
-
-According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-asynchronous-tools), a very common wiki that dev teams use is [Confluence](https://www.atlassian.com/software/confluence)  
-
-An example of a Confluence page detailing the architecture of an app is shown [here](https://openmbee.atlassian.net/wiki/spaces/OPENMBEE/pages/320765953/Flexo-MMS+Architecture)
+One way to get around the slower nature of a rules based AI is to incorporate the rules into a database.  One database that does is called [RDFox](https://www.oxfordsemantic.tech/rdfox).  The rules based AI is incoporated when the database "reasons" about data.
