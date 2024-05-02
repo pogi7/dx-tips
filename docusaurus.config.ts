@@ -92,11 +92,11 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Get Started',
+              label: 'Basic Tips',
               to: '/docs/intro',
             },
             {
-              label: 'API Documentation',
+              label: 'Advanced Tips',
               to: '/docs/category/advanced-tips',
             },
             {
