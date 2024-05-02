@@ -22,7 +22,7 @@ function HomepageHeader() {
               className="button button--secondary button--lg"
               to="/docs/intro"
             >
-              Get Started - 5min ⏱️
+              Basic Tips - 5min 👶
             </Link>
           </div>
           <div className={styles.buttons}>
@@ -30,7 +30,7 @@ function HomepageHeader() {
               className="button button--secondary button--lg"
               to="/docs/category/api-documentation"
             >
-              API Documentation ⚙️
+              Advanced Tips 🧑‍🎓
             </Link>
           </div>
           <div className={styles.buttons}>

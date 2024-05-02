@@ -2,142 +2,79 @@
 sidebar_position: 1
 ---
 
-# Get Started
+# Basic Tips
 
-Let's discover **OML Vision in less than 5 minutes**.
+Let's discover the basics of pleasant and effective **developer experience in less than 5 minutes**.
 
-## Getting Started
+## Version Control
 
-### VSCode Terminology (Optional)
+[Version control](https://www.atlassian.com/git/tutorials/what-is-version-control) is a way to keep track and manage changes to software code.  
 
-:::tip VSCode Terminology
+Version control can allow developer teams to keep track, mitigate, and resolve errors that may arise from code degradation or human error.  
 
-While not required, it is recommended to read the documentation on VSCode terminology as it will be referenced heavily.  Read more [here](https://code.visualstudio.com/docs/getstarted/userinterface)
+### Git
+
+:::tip What is Git?
+
+[Atlassian](https://www.atlassian.com/git/tutorials/what-is-git) does a good job explaining what Git is and the benefits of adopting the technology within a development team.
 
 :::
 
-### Install OML Vision
+According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#version-control-version-control-system), Git is the de facto version control software that personal and professional developers use.
 
-#### VSCode Marketplace (Automatic Installation)
+Git is used for managing code locally on a computer.  This computer can be a personal computer, a bare metal server, or a cloud instance.
 
-<!-- TODO: Add link to VSCode marketplace -->
-1. Go to VSCode Marketplace and install the extension from there.  
+Git stores code in repos.  These local repos can be stored on remote hosting services.
 
-#### VSIX File (Manual Installation)
+### Github
 
-1. Go to latest release of [OML Vision](https://github.com/opencaesar/oml-vision/releases/latest)
-2. Download the VSIX file
-3. Install the OML Vision extension using the downloaded VSIX file.  Helpful guide [here](https://code.visualstudio.com/docs/editor/extension-marketplace#_install-from-a-vsix)
+:::tip What is Github?
 
-### What you'll need
+[Github](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) does a good job explaining how Git and Github interact with each other and the benefits of using Github.
 
-#### Windows
-1. Install scoop https://scoop.sh/#/
-2. Use scoop to install `git`, `nodejs`, `nvm`, `yarn`, `java17` and `visual studio code` if not already installed.
-```bash
-scoop bucket add main
-scoop bucket add extras
-scoop bucket add java
-scoop install main/git
-scoop install main/nodejs
-scoop install main/nvm
-scoop install main/yarn
-scoop install java/openjdk17
-scoop install extras/vscode
-```
-3. The version of VSCode must be at `1.78.2` or newer.
-4. Install the following VSCode extensions if not already installed
-```bash
-code --install-extension vscjava.vscode-java-pack
-code --install-extension vscjava.vscode-gradle
-```
-
-#### macOS
-1. Install homebrew https://brew.sh
-2. Use scoop to install `git`, `nodejs`, `nvm`, `yarn` and `visual studio code` if not already installed.
-```bash
-brew install git
-brew install nodejs
-brew install nvm
-brew install yarn
-brew install openjdk@17
-brew install --cask visual-studio-code
-```
-3. The version of VSCode must be at `1.78.2` or newer.
-4. Install the following VSCode extensions
-```bash
-code --install-extension vscjava.vscode-java-pack
-code --install-extension vscjava.vscode-gradle
-```
-
-## Load OML Model Data
-
-OML Vision is designed to work with OML (Ontological Modeling Language) models.
-
-### Start from Scratch
-
-Tutorials on how to create an OML model from scratch can be found [here](https://www.opencaesar.io/oml-tutorials/)
-
-:::danger No OML Vision viewpoints defined in above tutorial
-OML Vision works with viewpoints which will be covered in `Viewpoints` found [here](/docs/category/viewpoints)
 :::
 
-### Use existing OML model
+According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-version-control-version-control-platforms), Github is the most used version control platform that personal and professional developers use.
 
-If you want to see the capabilities of OML Vision without creating your own OML model you may use one of the following OML models:
+Github is used to store Git repos that can be accessed by developers with the correct authorization.  
 
-<!-- TODO: Change URL to opencaesar organization once documentation is updated -->
-- [Kepler16b](https://github.com/pogi7/kepler16b-example/tree/main): A hypothetical spacecraft that will explore the [Kepler16b exoplanet](https://en.wikipedia.org/wiki/Kepler-16b)
-- [Open Source Rover](https://github.com/UTNAK/open-source-rover/tree/main): A descriptive model of the [JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover/tree/master)
+For a developer, Github is used for a development team to see new changes in a codebase and keep track of and manage those changes.
 
-1. Click the eye icon in the sidebar which will activate the OML Vision extension
-2. Your screen should look like this
-![Unopened Workspace](./img/unopenedWorkspace.png)
+An example of a Github repo is shown [here](https://github.com/opencaesar/oml-vision)
 
-1. Click `Clone OML Model` and enter in this URL https://github.com/pogi7/kepler16b-example.git
+## Documenting Code
 
+Documenting code is very important because it allows you and the rest of the development team to understand how your code works and is supposed to behave.
 
-:::tip Command Line Interface
+Documentation helps dev teams onboard new developers much faster and prevent information from being lost due to turnover or forgetting. 
 
-You can also run this command from the command line using 
-```bash
-git clone https://github.com/pogi7/kepler16b-example.git
-```
-:::
+### Comments
 
-4. Open the kepler16b-example OML model in VSCode
+Code comments are very helpful for developers because you can put the code documentation right next to the code.  
 
-### Start OML Vision
+It is highly recommended to follow the documentation standard for your language that your dev team is using.
 
-1. Your screen should look like this
-![Entry Point](./img/entryPoint.png)
-2. Click the eye icon in the sidebar which will activate the OML Vision extension
-3. Your screen should look like this
-![Activate Extension](./img/activateExtension.png)
+The list includes some of the most widely used programming languages from [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-programming-scripting-and-markup-languages):
+- [Python](https://peps.python.org/pep-0257/)
+- [Java](https://www.baeldung.com/javadoc#javadoc-comments)
+- [Typescript](https://tsdoc.org/)
 
-4. Data must be loaded into the in-memory RDF triplestore for OML Vision to render views
-5. Click `Run clean` (This will clear the cache i.e.delete the build folder)
+An example of a Typescript comment that matches a Typescript standard is shown [here](https://github.com/opencaesar/oml-vision/blob/0db2cc46778f1441474c0d4aebc071df453cf52d/controller/src/utilities/loaders/loadCommandFiles.ts#L6-L15)
 
-:::tip Command Line Interface
+### READMEs
 
-You can also run this command from the command line using 
-```java
-./gradlew clean
-```
-Look in the [build.gradle](https://github.com/pogi7/kepler16b-example/blob/main/build.gradle) file for a list of commands
-:::
+READMEs are nice to explain higher level functionality of a program, function, class, or piece of software within an app or a piece of software that interacts with your dev team's app.
 
-6. Click `Run owlLoad` (This will load data into the in-memory RDF triplestore)
+READMEs can be included at any level of a Git repo, but generally recommended at the root or top level of a repo so that all developers will know where the README is.  
 
-:::tip Command Line Interface
+READMEs can be written in any programming language, but they are generally written in [plain text](https://www.adobe.com/uk/acrobat/resources/document-files/text-files/txt.html) (.txt) or [Markdown](https://www.markdownguide.org/) (.md) files.
 
-You can also run this command from the command line using 
-```java
-./gradlew owlLoad
-```
-Look in the [build.gradle](https://github.com/pogi7/kepler16b-example/blob/main/build.gradle) file for a list of commands
-:::
+An example of a README.md in a Github repo is shown [here](https://github.com/opencaesar/oml-vision/blob/0db2cc46778f1441474c0d4aebc071df453cf52d/README.md)
 
-7. Click `Objectives`
-8. Your screen should look like this
-![Objectives Table](./img/objectivesTable.png)
+### Wikis
+
+Wikis are a good alternative to READMEs when you don't want to store high level documentation about your app inside a Git repo.
+
+According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-asynchronous-tools), a very common wiki that dev teams use is [Confluence](https://www.atlassian.com/software/confluence)  
+
+An example of a Confluence page detailing the architecture of an app is shown [here](https://openmbee.atlassian.net/wiki/spaces/OPENMBEE/pages/320765953/Flexo-MMS+Architecture)
