@@ -2,27 +2,62 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pogi7.github.io/dx-tips/changelog</id>
     <title>Developer Experience Tips Blog</title>
-    <updated>2024-05-02T06:59:35.000Z</updated>
+    <updated>2024-05-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pogi7.github.io/dx-tips/changelog"/>
     <subtitle>Developer Experience Tips Blog</subtitle>
     <icon>https://pogi7.github.io/dx-tips/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[test-changelog]]></title>
+        <title type="html"><![CDATA[2024-05-02 Version 1]]></title>
         <id>https://pogi7.github.io/dx-tips/changelog/initial-release</id>
         <link href="https://pogi7.github.io/dx-tips/changelog/initial-release"/>
-        <updated>2024-05-02T06:59:35.000Z</updated>
-        <summary type="html"><![CDATA[Test]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="test">Test<a href="https://pogi7.github.io/dx-tips/changelog/initial-release#test" class="hash-link" aria-label="Direct link to Test" title="Direct link to Test">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="added">Added<a href="https://pogi7.github.io/dx-tips/changelog/initial-release#added" class="hash-link" aria-label="Direct link to Added" title="Direct link to Added">​</a></h3>
+        <updated>2024-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Undraw Update]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="Undraw Update" src="https://pogi7.github.io/dx-tips/assets/images/undraw_Update_re_swkp-9b116d57024842eddb03028a344ae6f9.png" width="1014" height="830" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="current-pages">Current Pages<a href="https://pogi7.github.io/dx-tips/changelog/initial-release#current-pages" class="hash-link" aria-label="Direct link to Current Pages" title="Direct link to Current Pages">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="basic-tips">Basic Tips<a href="https://pogi7.github.io/dx-tips/changelog/initial-release#basic-tips" class="hash-link" aria-label="Direct link to Basic Tips" title="Direct link to Basic Tips">​</a></h3>
 <ul>
-<li>Initial release</li>
+<li>Version Control</li>
+<li>Documentation</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="agile-development">Agile Development<a href="https://pogi7.github.io/dx-tips/changelog/initial-release#agile-development" class="hash-link" aria-label="Direct link to Agile Development" title="Direct link to Agile Development">​</a></h3>
+<ul>
+<li>DevSecOps<!-- -->
+<ul>
+<li>CICD Pipelines</li>
+</ul>
+</li>
+<li>Scrum</li>
+<li>Kanban</li>
+<li>Ticket System</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ai">AI<a href="https://pogi7.github.io/dx-tips/changelog/initial-release#ai" class="hash-link" aria-label="Direct link to AI" title="Direct link to AI">​</a></h3>
+<ul>
+<li>LLM</li>
+<li>Rules Based AI</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="package-managers">Package Managers<a href="https://pogi7.github.io/dx-tips/changelog/initial-release#package-managers" class="hash-link" aria-label="Direct link to Package Managers" title="Direct link to Package Managers">​</a></h3>
+<ul>
+<li>OS Level</li>
+<li>Programming Language Level</li>
+<li>App Level</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="standard-development-environment">Standard Development Environment<a href="https://pogi7.github.io/dx-tips/changelog/initial-release#standard-development-environment" class="hash-link" aria-label="Direct link to Standard Development Environment" title="Direct link to Standard Development Environment">​</a></h3>
+<ul>
+<li>OS Level</li>
+<li>Programming Language Level</li>
+<li>App Level</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="user-experience">User Experience<a href="https://pogi7.github.io/dx-tips/changelog/initial-release#user-experience" class="hash-link" aria-label="Direct link to User Experience" title="Direct link to User Experience">​</a></h2>
+<ul>
+<li>Get a Designer</li>
+<li>Listen to Your Designer</li>
 </ul>]]></content>
         <author>
             <name>Aaron Levitt</name>
-            <uri>https://www.opencaesar.io/contributors/Aaron%20Levitt.html</uri>
+            <uri>https://www.linkedin.com/in/aaron-levitt-91534620a</uri>
         </author>
-        <category label="oml" term="oml"/>
-        <category label="vscode" term="vscode"/>
+        <category label="initial" term="initial"/>
+        <category label="version-1" term="version-1"/>
     </entry>
 </feed>

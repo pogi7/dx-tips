@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocusaurus_classic_typescript=self.webpackChunkdocusaurus_classic_typescript||[]).push([[240],{341:s=>{s.exports=JSON.parse('{"label":"oml","permalink":"/dx-tips/changelog/tags/oml","allTagsPath":"/dx-tips/changelog/tags","count":1,"unlisted":false}')}}]);
