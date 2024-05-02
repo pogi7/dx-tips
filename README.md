@@ -1,14 +1,18 @@
-# OML Vision Docs
+# Developer Experience Tips
 
 ## Source Code
-Link to [Source Code](https://github.com/opencaesar/oml-vision/tree/master)
+Link to [Source Code](https://github.com/pogi7/dx-tips)
 
 ## Deployment on Github Pages
-Link to [Documentation Deployed on Github Pages](http://www.opencaesar.io/dx-tips/)
+Link to [Documentation Deployed on Github Pages](http://www.pogi7.github.io/dx-tips/)
 
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+
+## Software Dependencies
+
+You will need NodeJS 18 to test the code.  You can use a Github codespace or install NodeJS 18 locally.
 
 ### Installation
 

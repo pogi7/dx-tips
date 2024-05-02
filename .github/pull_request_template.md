@@ -1,9 +1,8 @@
 ## Checklist before submitting a merge request
 
-- [ ] I have reviewed [CONTRIBUTING.md](https://github.com/opencaesar/oml-vision/blob/master/CONTRIBUTING.md) document
-- [ ] All commits have been signed-off for the Developer Certificate of Origin. See [here](https://github.com/opencaesar/oml-vision/blob/master/CONTRIBUTING.md#developer-certificate-of-origin).
-- [ ] I have added my contribution to [CHANGELOG.md](https://github.com/opencaesar/oml-vision/blob/master/CHANGELOG.md)
-- [ ] I have documented my code in the [OML Vision Docs](http://www.opencaesar.io/oml-vision-docs/)
+- [ ] I have reviewed [CONTRIBUTING.md](https://github.com/pogi7/dx-tips/blob/main/CONTRIBUTING.md) document
+- [ ] All commits have been signed-off for the Developer Certificate of Origin. See [here](https://github.com/pogi7/dx-tips/blob/main/CONTRIBUTING.md#developer-certificate-of-origin).
+- [ ] I have added my contribution to the ./changelog
 
 ## Description of contribution
 

@@ -2,7 +2,7 @@
   // This file is not used in compilation. It is here just for a nice editor experience.
   "extends": "@docusaurus/tsconfig",
   "compilerOptions": {
-    "baseUrl": "https://opencaesar.github.io/dx-tips/",
+    "baseUrl": "https://pogi7.github.io/dx-tips/",
     "target": "es5",
     "lib": [
       "dom",

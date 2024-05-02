@@ -40,7 +40,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/pogi7/dx-tips/tree/master/',
+            'https://github.com/pogi7/dx-tips/tree/main/',
         },
         blog: {
           // https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog
@@ -50,7 +50,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/pogi7/dx-tips/tree/master/',
+            'https://github.com/pogi7/dx-tips/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -110,7 +110,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/opencaesar/dx-tips',
+              href: 'https://github.com/pogi7/dx-tips',
             },
           ],
         },
