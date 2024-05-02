@@ -1,12 +1,14 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Automated Builds and Testing
+# Agile Development
 
-Let's discover the basics of pleasant and effective **developer experience in less than 5 minutes**.
+## Automated Building and Testing
 
-## Version Control
+Automated building and testing software is important to pleasant and effective DX.
+
+## CICD Pipelines
 
 [Version control](https://www.atlassian.com/git/tutorials/what-is-version-control) is a way to keep track and manage changes to software code.  
 
@@ -42,7 +44,44 @@ For a developer, Github is used for a development team to see new changes in a c
 
 An example of a Github repo is shown [here](https://github.com/opencaesar/oml-vision)
 
-## Documenting Code
+## DevSecOps
+
+Documenting code is very important because it allows you and the rest of the development team to understand how your code works and is supposed to behave.
+
+Documentation helps dev teams onboard new developers much faster and prevent information from being lost due to turnover or forgetting. 
+
+### Comments
+
+Code comments are very helpful for developers because you can put the code documentation right next to the code.  
+
+It is highly recommended to follow the documentation standard for your language that your dev team is using.
+
+The list includes some of the most widely used programming languages from [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-programming-scripting-and-markup-languages):
+- [Python](https://peps.python.org/pep-0257/)
+- [Java](https://www.baeldung.com/javadoc#javadoc-comments)
+- [Typescript](https://tsdoc.org/)
+
+An example of a Typescript comment that matches a Typescript standard is shown [here](https://github.com/opencaesar/oml-vision/blob/0db2cc46778f1441474c0d4aebc071df453cf52d/controller/src/utilities/loaders/loadCommandFiles.ts#L6-L15)
+
+### READMEs
+
+READMEs are nice to explain higher level functionality of a program, function, class, or piece of software within an app or a piece of software that interacts with your dev team's app.
+
+READMEs can be included at any level of a Git repo, but generally recommended at the root or top level of a repo so that all developers will know where the README is.  
+
+READMEs can be written in any programming language, but they are generally written in [plain text](https://www.adobe.com/uk/acrobat/resources/document-files/text-files/txt.html) (.txt) or [Markdown](https://www.markdownguide.org/) (.md) files.
+
+An example of a README.md in a Github repo is shown [here](https://github.com/opencaesar/oml-vision/blob/0db2cc46778f1441474c0d4aebc071df453cf52d/README.md)
+
+### Wikis
+
+Wikis are a good alternative to READMEs when you don't want to store high level documentation about your app inside a Git repo.
+
+According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-asynchronous-tools), a very common wiki that dev teams use is [Confluence](https://www.atlassian.com/software/confluence)  
+
+An example of a Confluence page detailing the architecture of an app is shown [here](https://openmbee.atlassian.net/wiki/spaces/OPENMBEE/pages/320765953/Flexo-MMS+Architecture)
+
+## Ticket System
 
 Documenting code is very important because it allows you and the rest of the development team to understand how your code works and is supposed to behave.
 
