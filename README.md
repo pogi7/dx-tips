@@ -1,4 +1,4 @@
-# Developer Experience Tips
+# Digital Transformation Tips
 
 ## Source Code
 Link to [Source Code](https://github.com/pogi7/dx-tips)

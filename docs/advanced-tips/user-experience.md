@@ -8,27 +8,15 @@ Spending some time to think about the user experience of the app will help impro
 
 User experience is something for the design team to be thinking about but having a general knowledge of it will be important to improve DX.
 
-## Get a Designer
+### What is it? 
+For digital transformation, [user experience](https://www.nngroup.com/articles/definition-user-experience/) includes all end user's interactions with a service, app, or piece of software. 
 
-Dev teams will sometime have people wear multiple hats while doing development.  One of these hats is designer.  It is highly recommended to get a designer who is trained and knows what they're doing instead of wearing multiple hats. 
+### Why should I care? 
+A [good user experience](https://www.uxdesigninstitute.com/blog/the-value-of-ux-design/) is generally easy and enjoyable, while a bad user experience is complicated, confusing and frustrating.  Bad user experience may lead to an increase in code refactors.  This may lead to burn out of the development team.
 
-### Where to Find One
+### How to Implement? 
+1. Get a Designer: Dev teams will sometime have people wear multiple hats while doing development.  One of these hats is designer.  It is highly recommended to get a designer who is trained and knows what they're doing instead of wearing multiple hats.
+2. Listen to Your Designer: It's always a good idea to listen to your designer.  A lot of research goes into making a good user experience.  Information is usually conveyed in a Figma diagram, survey information, or PowerPoint presentation.
+3. [Figma](https://www.figma.com) is an app commonly used by designers to make designs for the web, mobile, watches, etc. and share those with others.  For a dev team, this design is usually what inspires the look and feel of the frontend.
 
-Personal Project: 
-- Post on Reddit's web_design [subreddit](https://www.reddit.com/r/web_design/)
-- This [Quora post](https://www.quora.com/How-can-I-hire-a-web-design-and-where-can-I-find-a-web-designer) can help with finding a designer
-
-Professional Project: 
-- Ask your supervisor if there is a design team in your organization
-    - If so then see your dev team has the budget to hire one
-    - If not then see if you can pitch the idea of starting a design team at your work
-
-## Listen to Your Designer
-
-It's always a good idea to listen to your designer.  A lot of research goes into making a good user experience.  Information is usually conveyed in a Figma diagram.  
-
-### Figma
-
-[Figma](https://www.figma.com) is the industry standard app for designers to make designs for websites, mobile, watches, etc. and share those with others.  For a dev team, this design is usually what inspires the look and feel of the frontend.
-
-Figma can also be used to verify that your app meets accessibility requirements such as ensuring that the app's colors works for people with color blindness.
+While accessibility is a different concept than user experience, the two topics are related.  Figma can also be used to verify that your app meets accessibility requirements like the ones outlined in [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/).  Some accessibility concerns can be ensuring that the app's colors comply to requirements for people with color blindness.

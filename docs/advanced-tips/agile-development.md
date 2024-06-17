@@ -10,46 +10,33 @@ Agile development is a way of thinking.  It's a culture that a team should adopt
 
 ## DevSecOps
 
-[DevSecOps](https://www.redhat.com/en/topics/devops/what-is-devsecops) or Development, Security, and Operations is a way of implementing agile by having the dev team be responsible for the development, security, and operations of the app instead of passing those responsibilities off to other dev teams.
+### What is it? 
+[DevSecOps](https://www.redhat.com/en/topics/devops/what-is-devsecops) or Development, Security, and Operations is a way of implementing agile by having the dev team be responsible for the development, security, and operations of the app instead of passing those responsibilities off to other dev teams. 
 
-### CICD Pipelines
+### Why should I care? 
+[DevSecOps](https://www.eccouncil.org/cybersecurity-exchange/devsecops/it-industries-adopt-devsecops/) leads to faster delivery times during the software development lifecycle without deprioritizing security, repeatable and standarized software processes, and save costs by reducing errors and refactoring through automating repetitive tasks. 
 
-[CICD](https://www.redhat.com/en/topics/devops/what-is-ci-cd) or Continuous Integration and Continuous Deployment is way to achieve DevSecOps by having the dev team continuously integrate new changes to the app and continuously deploying these changes to the app.
-
-This is commonly used to automatically build and test an app to ensure that the app functions as intended and verify that there is high code quality.
-
-An example of a CICD pipeline using Github Actions can be found [here](https://github.com/pogi7/dx-tips/actions)
-
-:::tip This app is deployed using a CICD pipeline
-
-:::
-
+### How to Implement? 
+1. [CICD](https://www.redhat.com/en/topics/devops/what-is-ci-cd): Continuous Integration and Continuous Deployment is way to achieve DevSecOps by having the dev team continuously integrate new changes to the app and continuously deploying these changes to the app.  This is commonly used to automatically build and test an app to ensure that the app functions as intended and verify that there is high code quality.
 
 ## Scrum
-[Scrum](https://www.atlassian.com/agile/scrum) is one way that Agile can be achieved.
 
-Pros: 
-- Fixed increment of when to do work (i.e 2 weeks, 1 month, etc.)
-- Incremental improvements to the app
+### What is it? 
+[Scrum](https://www.atlassian.com/agile/scrum) is one way that Agile can be achieved where there is a fixed increment of when to do work (i.e 2 weeks, 1 month, etc.).  There are required roles such as scrum master or product owner in order to implement scrum.
 
-Cons:
-- Meeting heavy
-- Required roles such as scrum master, product owner, etc.
+### Why should I care? 
+Scrum standardizes development processses since it is designed to deliver value in fixed increments.
 
+### How to Implement? 
+1. Scrum boards and ticket system: According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-asynchronous-tools), the most widely used ticket system by personal and professional developers for scrum is [Jira](https://www.atlassian.com/software/jira)
 
 ## Kanban
 
-[Kanban](https://www.atlassian.com/agile/kanban) is another way that Agile can be achieved.
+### What is it? 
+[Kanban](https://www.atlassian.com/agile/kanban) is another way that Agile can be achieved where there is no fixed increment of when to do work (i.e 2 weeks, 1 month, etc.).  There are no required roles such as scrum master or product owner in order to implement Kanban but a board is required for Kanban to be fully achieved.
 
-Pros: 
-- Meeting Light
-- Continuous improvements to the app
+### Why should I care? 
+Kanban is less rigid than scrum allowing the development team to adapt to changes faster.  This can help prevent developer burnout as the development team can be more flexible to changing needs.
 
-Cons:
-- No fixed increment of when to do work (i.e 2 weeks, 1 month, etc.)
-- Work continuously comes in with little room for planning this work when compared to scrum
-
-## Ticket System
-Both Scrum and Kanban use a ticket system to keep track of work.  These tickets help developers organize the requirements for their work and determining when their work is finished for a particular feature request or bug report.
-
-- According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-asynchronous-tools), the most widely used ticket system by personal and professional developers is [Jira](https://www.atlassian.com/software/jira)
+### How to Implement? 
+1. Kanban boards and ticket system: According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-asynchronous-tools), the most widely used ticket system by personal and professional developers for kanban is [Jira](https://www.atlassian.com/software/jira)

@@ -6,48 +6,16 @@ sidebar_position: 3
 
 Package managers are an important way to improve the pleasantness and effectiveness of DX.
 
-All package managers are used to add, remove, modify, upgrade, and maintain software.
+### What is it? 
+Package managers add, remove, modify, upgrade, and maintain software.  There are package managers at the OS, programming language, or app level.
 
-## OS Level
+### Why should I care? 
+Package managers standarize how 3rd party dependencies and software can be maintained throughout the lifecycle of an app.  This standardization leads to quicker onboarding, higher success of knowledge transfer, and less user-error bugs.
 
-For most developers an OS (operating system) level package manager will be the most important package manager to use.  These package managers install software into a common folder on a computer making managing software much easier.
-
-### Windows
-
-By default, Windows does not come with a package manager.  
-
-The two most common Windows package managers are:
-- [Chocolatey](https://chocolatey.org/)
-- [Scoop](https://scoop.sh/)
-
-### macOS
-
-By default, macOS does not come with a package manager.  
-
-The most common macOS package manager is:
-- [HomeBrew](https://brew.sh/)
-
-According to [Stack Overflow's 2022 insights](https://survey.stackoverflow.co/2022#section-most-popular-technologies-other-tools), homebrew is the most widely used OS level package manager.
-
-### Linux
-
-By default, Linux comes with a package manager.
-
-Each distro of Linux comes with a unique package manager but here are the most common:
-- [DNF](https://en.wikipedia.org/wiki/DNF_(software))
-- [APT](https://en.wikipedia.org/wiki/APT_(software))
-
-## Programming Language Level
-
-Most programming languages have package managers.  These package managers are used to get libraries or dependencies from open source repositories that have been published to the registry of the package managers.
-
-Most programming languages have a package manager but here are some for the most popular programming languages:
-- [pyPI](https://pypi.org/)
-- [npm](https://www.npmjs.com/)
-- [maven](https://maven.apache.org/)
-
-## App Level
-
-Some large scale apps have package managers as well.  This helps since a developer does not need to recreate functionality if it already on the app's package manager registry.
-
-An example of an app having a package manager is Kubernetes's [Helm](https://helm.sh)
+### How to Implement? 
+1. [Chocolatey](https://chocolatey.org/) Windows Package Manager
+2. [HomeBrew](https://brew.sh/) macOS Package Manager
+3. [APT](https://en.wikipedia.org/wiki/APT_(software)) Linux Debian Package Manager
+4. [pyPI](https://pypi.org/) Python Package Manager
+5. [npm](https://www.npmjs.com/) Javascript Package Manager
+6. [Helm](https://helm.sh) Kubernetes Package Manager

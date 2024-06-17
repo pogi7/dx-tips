@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Developer Experience Tips',
+  title: 'Digital Transformation Tips',
   tagline: "A Hitchhiker's Guide to Pleasant and Effective DX",
   favicon: 'img/favicon.ico',
 
