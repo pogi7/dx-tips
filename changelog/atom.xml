@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pogi7.github.io/dx-tips/changelog</id>
-    <title>Developer Experience Tips Blog</title>
+    <title>Digital Transformation Tips Blog</title>
     <updated>2024-05-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pogi7.github.io/dx-tips/changelog"/>
-    <subtitle>Developer Experience Tips Blog</subtitle>
+    <subtitle>Digital Transformation Tips Blog</subtitle>
     <icon>https://pogi7.github.io/dx-tips/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[2024-05-02 Version 1]]></title>
