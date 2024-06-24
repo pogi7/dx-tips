@@ -2,11 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pogi7.github.io/dx-tips/changelog</id>
     <title>Digital Transformation Tips Blog</title>
-    <updated>2024-05-02T00:00:00.000Z</updated>
+    <updated>2024-06-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pogi7.github.io/dx-tips/changelog"/>
     <subtitle>Digital Transformation Tips Blog</subtitle>
     <icon>https://pogi7.github.io/dx-tips/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[2024-06-24 Version 1.1.0]]></title>
+        <id>https://pogi7.github.io/dx-tips/changelog/version-1.1.0</id>
+        <link href="https://pogi7.github.io/dx-tips/changelog/version-1.1.0"/>
+        <updated>2024-06-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Undraw Update]]></summary>
+        <content type="html"><![CDATA[<p><img loading="lazy" alt="Undraw Update" src="https://pogi7.github.io/dx-tips/assets/images/undraw_Upgrade_re_gano-fd9cc5d164d6dd47fe1edf7f3d00e28d.png" width="1091" height="598" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="all-pages">All Pages<a href="https://pogi7.github.io/dx-tips/changelog/version-1.1.0#all-pages" class="hash-link" aria-label="Direct link to All Pages" title="Direct link to All Pages">​</a></h2>
+<ul>
+<li>Reformatted content within the pages to answer these 3 questions:<!-- -->
+<ol>
+<li>What is it?</li>
+<li>Why should I care?</li>
+<li>How to implement?</li>
+</ol>
+</li>
+<li>Content ties back to 3 main points in main page<!-- -->
+<ol>
+<li>Standarize Development Processes</li>
+<li>Applicable To All Dev Teams</li>
+<li>Lower Rates Of Burnout</li>
+</ol>
+</li>
+</ul>]]></content>
+        <author>
+            <name>Aaron Levitt</name>
+            <uri>https://www.linkedin.com/in/aaron-levitt-91534620a</uri>
+        </author>
+        <category label="version-1.1.0" term="version-1.1.0"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2024-05-02 Version 1]]></title>
         <id>https://pogi7.github.io/dx-tips/changelog/initial-release</id>

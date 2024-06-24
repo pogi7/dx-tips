@@ -4,10 +4,36 @@
         <title>Digital Transformation Tips Blog</title>
         <link>https://pogi7.github.io/dx-tips/changelog</link>
         <description>Digital Transformation Tips Blog</description>
-        <lastBuildDate>Thu, 02 May 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 24 Jun 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[2024-06-24 Version 1.1.0]]></title>
+            <link>https://pogi7.github.io/dx-tips/changelog/version-1.1.0</link>
+            <guid>https://pogi7.github.io/dx-tips/changelog/version-1.1.0</guid>
+            <pubDate>Mon, 24 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Undraw Update]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" alt="Undraw Update" src="https://pogi7.github.io/dx-tips/assets/images/undraw_Upgrade_re_gano-fd9cc5d164d6dd47fe1edf7f3d00e28d.png" width="1091" height="598" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="all-pages">All Pages<a href="https://pogi7.github.io/dx-tips/changelog/version-1.1.0#all-pages" class="hash-link" aria-label="Direct link to All Pages" title="Direct link to All Pages">​</a></h2>
+<ul>
+<li>Reformatted content within the pages to answer these 3 questions:<!-- -->
+<ol>
+<li>What is it?</li>
+<li>Why should I care?</li>
+<li>How to implement?</li>
+</ol>
+</li>
+<li>Content ties back to 3 main points in main page<!-- -->
+<ol>
+<li>Standarize Development Processes</li>
+<li>Applicable To All Dev Teams</li>
+<li>Lower Rates Of Burnout</li>
+</ol>
+</li>
+</ul>]]></content:encoded>
+            <category>version-1.1.0</category>
+        </item>
         <item>
             <title><![CDATA[2024-05-02 Version 1]]></title>
             <link>https://pogi7.github.io/dx-tips/changelog/initial-release</link>
